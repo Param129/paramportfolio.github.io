@@ -68,7 +68,7 @@ document.querySelector(".hire-me").addEventListener("click",function()
 })
 const navTogglerBtn=document.querySelector(".nav-toggler"),
 aside=document.querySelector(".aside");
-navTogglerBtn.add("click",()=>
+navTogglerBtn.addEventListener("click",()=>
 {
     asideSectionTogglerBtn();
 })
